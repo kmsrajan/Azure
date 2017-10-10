@@ -20,7 +20,7 @@ namespace MyFirstFunApp
 
             return req.CreateResponse(HttpStatusCode.OK, new
             {
-                greeting = $"Welcome to Azure Function apps!!!"
+                greeting = $"Welcome to Azure Function apps!!! This is published from Github"
             });
         }
     }
